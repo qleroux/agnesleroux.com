@@ -1,0 +1,378 @@
+/*#ff6c00*/
+body {
+  overflow-x: hidden;
+  /*font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fefefe;
+}
+body,
+html {
+  height: 100%;
+}
+.text-muted {
+  color: #777777;
+}
+h3.text-muted {
+  color: #9d9d9d;
+}
+.text-primary {
+  color: #3B557F;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #3B557F;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #cc4000;
+}
+h1, h2 {
+  font-weight: 500;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*text-transform: uppercase;*/
+}
+h3,h4,h5,h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+    background-color: #f5f5f5;
+}
+.bg-darkest-gray {
+    background-color: #3B557F;
+    color: white;
+}
+.bg-darkest2-gray {
+    background-color: #333333;
+    color: #f5f5f5;
+}
+
+/*--------------------------------------------*/
+
+.navbar-default {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+}
+.navbar-default .navbar-toggle {
+  background-color: #3B557F;
+  border: #3B557F;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3B557F;
+}
+.navbar-default .nav li a {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222222;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #3B557F;
+  outline: none;
+}
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #3B557F;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #cc4000;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-default .nav li a {
+    color: #ffffff;
+  }
+  .navbar-default .nav li a:hover,
+  .navbar-default .nav li a:focus {
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .navbar-default .navbar-brand {
+    display: none;
+  }
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 2px;
+  }
+  .navbar-default.navbar-shrink {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0;
+  }
+  .navbar-default.navbar-shrink .navbar-brand {
+    display: block;
+  }
+  .navbar-default.navbar-shrink .nav li a {
+    color: #222222;
+  }
+  .navbar-default.navbar-shrink .nav li a:hover,
+  .navbar-default.navbar-shrink .nav li a:focus {
+    outline: none;
+    color: #3B557F;
+  }
+  .navbar-default.navbar-shrink .navbar-nav > .active > a {
+    outline: none;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #3B557F;
+  }
+  .navbar-default.navbar-shrink .navbar-nav > .active > a:hover,
+  .navbar-default.navbar-shrink .navbar-nav > .active > a:focus {
+    color: white;
+    /*background-color: darken(@brand-primary, 10%);*/
+    background-color: #3B557F;
+  }
+}
+
+/*----------------------------------------------------*/
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+/*----------------------------------------------------*/
+
+
+section {
+  padding: 110px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 18px;
+  line-height: 28px;
+  /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+/*----------------------------------------------------*/
+
+.container .jumbotron, .container-fluid .jumbotron{
+    padding: 40px 40px;
+}
+.jumbotron h2{  font-size: 24px; color:#000000; }
+.jumbotron p{   font-size: 18px; color:#1A237E; }
+
+@media screen and (min-width: 768px){
+.container .jumbotron, .container-fluid .jumbotron {
+    padding: 40px 40px;
+}
+
+/*----------------------------------------------------*/
+
+#bilan h4{
+  color:#333333; 
+}
+#bilan img{
+  height: 480px;
+  width: 600px;
+}
+#formation img{
+  height: 400px;
+  width: 600px;
+}
+/*----------------------------------------------------*/
+
+#atelier .section-heading{
+  margin-bottom: 60px;
+}
+
+/*----------------------------------------------------*/
+
+#map{
+  width: 100%;
+  height: 400px;
+}
+footer{
+  width: 100%;
+  height:75px;
+  background-color: #222222;
+}
+/*----------------------------------------------------*/
+#contact .section-heading{
+  margin-bottom: 30px;
+}
+#contact img{
+  width: 150px;
+}
+#contact .img-circle{
+  border:3px solid #444;
+  float:right;
+}
+#contact .text-muted{
+    font-size: 16px;
+    color: #ababab;
+}
+#contact .text-muted a{
+  text-decoration: underline;
+  color: #bcbcbc;
+}
+/*---------CAROUSEL----------------*/
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
